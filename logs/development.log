@@ -1,78 +1,8 @@
-I, [2022-08-02T15:38:22.458633 #41077]  INFO -- : Test log message
-W, [2022-08-02T15:38:22.458870 #41077]  WARN -- : Test fatal log message
-I, [2022-08-02T15:40:30.851425 #41077]  INFO -- : Test log message
-W, [2022-08-02T15:40:30.851481 #41077]  WARN -- : Test fatal log message
-I, [2022-08-02T15:40:35.515591 #41077]  INFO -- : Test log message
-W, [2022-08-02T15:40:35.515629 #41077]  WARN -- : Test fatal log message
-I, [2022-08-02T15:47:42.765546 #45088]  INFO -- : Test log message
-W, [2022-08-02T15:47:42.765599 #45088]  WARN -- : Test fatal log message
-I, [2022-08-02T15:48:18.615584 #45088]  INFO -- : Test log message
-W, [2022-08-02T15:48:18.615619 #45088]  WARN -- : Test fatal log message
-I, [2022-08-02T15:48:23.522451 #45088]  INFO -- : Test log message
-W, [2022-08-02T15:48:23.522649 #45088]  WARN -- : Test fatal log message
-I, [2022-08-02T15:48:29.625208 #45088]  INFO -- : Test log message
-W, [2022-08-02T15:48:29.625284 #45088]  WARN -- : Test fatal log message
-I, [2022-08-02T15:48:29.769925 #45088]  INFO -- : Test log message
-W, [2022-08-02T15:48:29.769990 #45088]  WARN -- : Test fatal log message
-I, [2022-08-02T15:49:58.975259 #46122]  INFO -- : Test log message
-W, [2022-08-02T15:49:58.975300 #46122]  WARN -- : Test fatal log message
-I, [2022-08-02T15:50:20.223518 #46122]  INFO -- : Test log message
-W, [2022-08-02T15:50:20.223553 #46122]  WARN -- : Test fatal log message
-I, [2022-08-02T15:50:26.218115 #46122]  INFO -- : Test log message
-W, [2022-08-02T15:50:26.218152 #46122]  WARN -- : Test fatal log message
-I, [2022-08-02T15:50:33.354182 #46122]  INFO -- : Test log message
-W, [2022-08-02T15:50:33.354214 #46122]  WARN -- : Test fatal log message
-I, [2022-08-02T15:50:44.503138 #46122]  INFO -- : Test log message
-W, [2022-08-02T15:50:44.503264 #46122]  WARN -- : Test fatal log message
-I, [2022-08-02T15:52:53.502213 #46122]  INFO -- : Test log message
-W, [2022-08-02T15:52:53.502276 #46122]  WARN -- : Test fatal log message
-I, [2022-08-02T15:58:17.420755 #49158]  INFO -- : Test log message
-W, [2022-08-02T15:58:17.420911 #49158]  WARN -- : Test fatal log message
-I, [2022-08-02T15:59:43.458333 #49158]  INFO -- : Test log message
-W, [2022-08-02T15:59:43.458372 #49158]  WARN -- : Test fatal log message
-I, [2022-08-02T16:01:27.709407 #49158]  INFO -- : Test log message
-W, [2022-08-02T16:01:27.709440 #49158]  WARN -- : Test fatal log message
-I, [2022-08-07T13:26:40.342481 #29011]  INFO -- : Test log message
-W, [2022-08-07T13:26:40.342538 #29011]  WARN -- : Test fatal log message
-I, [2022-08-07T13:26:40.467027 #29011]  INFO -- : Test log message
-W, [2022-08-07T13:26:40.467090 #29011]  WARN -- : Test fatal log message
-I, [2022-08-07T13:34:56.486732 #29011]  INFO -- : Test log message
-W, [2022-08-07T13:34:56.486765 #29011]  WARN -- : Test fatal log message
-I, [2022-08-07T13:35:04.583757 #34488]  INFO -- : Test log message
-W, [2022-08-07T13:35:04.583852 #34488]  WARN -- : Test fatal log message
-I, [2022-08-07T13:47:54.557479 #36474]  INFO -- : Test log message
-W, [2022-08-07T13:47:54.557528 #36474]  WARN -- : Test fatal log message
-I, [2022-08-07T13:51:31.555016 #36474]  INFO -- : Test log message
-W, [2022-08-07T13:51:31.555095 #36474]  WARN -- : Test fatal log message
-I, [2022-08-07T13:55:03.542237 #37000]  INFO -- : Test log message
-W, [2022-08-07T13:55:03.542303 #37000]  WARN -- : Test fatal log message
-I, [2022-08-07T13:57:10.598473 #37786]  INFO -- : Test log message
-W, [2022-08-07T13:57:10.598721 #37786]  WARN -- : Test fatal log message
-I, [2022-08-07T13:58:32.626163 #38187]  INFO -- : Test log message
-W, [2022-08-07T13:58:32.626209 #38187]  WARN -- : Test fatal log message
-I, [2022-08-07T13:58:35.623457 #38187]  INFO -- : Test log message
-W, [2022-08-07T13:58:35.623534 #38187]  WARN -- : Test fatal log message
-I, [2022-08-07T13:59:43.066563 #38187]  INFO -- : Test log message
-W, [2022-08-07T13:59:43.066601 #38187]  WARN -- : Test fatal log message
-I, [2022-08-07T13:59:47.798581 #38187]  INFO -- : Test log message
-W, [2022-08-07T13:59:47.798661 #38187]  WARN -- : Test fatal log message
-I, [2022-08-07T14:00:25.335639 #38187]  INFO -- : Test log message
-W, [2022-08-07T14:00:25.335696 #38187]  WARN -- : Test fatal log message
-I, [2022-08-07T14:17:26.997589 #44219]  INFO -- : Test log message
-I, [2022-08-07T14:17:49.500948 #44219]  INFO -- : Test log message
-I, [2022-08-07T14:18:41.639249 #44219]  INFO -- : Test log message
-I, [2022-08-07T14:18:44.306964 #44219]  INFO -- : Test log message
-I, [2022-08-07T14:21:20.383375 #45072]  INFO -- : Test log message
-I, [2022-08-07T14:24:01.461497 #45656]  INFO -- : Test log message
-I, [2022-08-07T14:25:33.727756 #45851]  INFO -- : Test log message
-I, [2022-08-07T14:26:00.592048 #45851]  INFO -- : Test log message
-I, [2022-08-07T14:27:26.935333 #45851]  INFO -- : Test log message
-I, [2022-08-07T14:27:34.440394 #45851]  INFO -- : Test log message
-I, [2022-08-07T14:28:06.161363 #45851]  INFO -- : Test log message
-I, [2022-08-07T14:28:22.760829 #45851]  INFO -- : Test log message
-I, [2022-08-07T14:29:26.487069 #45851]  INFO -- : Test log message
-I, [2022-08-07T14:30:09.267924 #47639]  INFO -- : Test log message
-I, [2022-08-07T14:30:29.620711 #47639]  INFO -- : Test log message
-I, [2022-08-07T14:31:50.903692 #47639]  INFO -- : Test log message
-I, [2022-08-07T14:32:34.554776 #48299]  INFO -- : Test log message
-I, [2022-08-07T14:32:45.768112 #48299]  INFO -- : Test log message
+W, [2022-08-07T15:48:02.538548 #71654]  WARN -- : {"error":"unauthorized"}
+I, [2022-08-07T15:48:02.541042 #71654]  INFO -- : {"task":"ping message","message":"ping message","params":"{}"}
+W, [2022-08-07T15:48:16.950683 #71654]  WARN -- : {"error":"unauthorized"}
+I, [2022-08-07T15:48:16.950760 #71654]  INFO -- : {"task":"ping message","message":"ping message","params":"{}"}
+W, [2022-08-07T15:48:23.674640 #71654]  WARN -- : {"error":"unauthorized"}
+I, [2022-08-07T15:48:23.674900 #71654]  INFO -- : {"task":"ping message","message":"ping message","params":"{\" a\"=>\"h\"}"}
+W, [2022-08-07T15:49:00.688997 #71654]  WARN -- : {"error":"unauthorized"}
+W, [2022-08-07T15:56:44.186365 #71654]  WARN -- : {"error":"unauthorized"}

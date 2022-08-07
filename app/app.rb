@@ -15,7 +15,7 @@ class App
 end
 
 ###TODO
-# - set request headers Content-Type: application/json
-# - add configs
-# - add test app route and working route
+# - set request headers Content-Type: application/json +
+# - add configs + 
+# - add test app route and working route + 
 # - add .env variables
