@@ -1,15 +1,21 @@
 class App
+  def self.call(env)
+    new(env).response.finish
+  end
+
   def initialize(env)
     @request = Rack::Request.new(env)
+    @router = Router.new(@request)
   end
-  
-  def self.call(env)
-    @req = Controller.new(@request)
-    @message = @req.send_request
-    new(env).response(@message.to_json).finish
+
+  def response
+    @router.route
   end
-  
-  def response(message)
-    Rack::Response.new(message, 255)
-  end
+
 end
+
+###TODO
+# - set request headers Content-Type: application/json
+# - add configs
+# - add test app route and working route
+# - add .env variables
