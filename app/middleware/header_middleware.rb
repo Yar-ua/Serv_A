@@ -9,5 +9,5 @@ module Middleware
       headers['Content-Type'] = 'application/json'
       [status, headers, body]
     end
-  end  
+  end
 end

@@ -1,8 +1,0 @@
-W, [2022-08-07T15:48:02.538548 #71654]  WARN -- : {"error":"unauthorized"}
-I, [2022-08-07T15:48:02.541042 #71654]  INFO -- : {"task":"ping message","message":"ping message","params":"{}"}
-W, [2022-08-07T15:48:16.950683 #71654]  WARN -- : {"error":"unauthorized"}
-I, [2022-08-07T15:48:16.950760 #71654]  INFO -- : {"task":"ping message","message":"ping message","params":"{}"}
-W, [2022-08-07T15:48:23.674640 #71654]  WARN -- : {"error":"unauthorized"}
-I, [2022-08-07T15:48:23.674900 #71654]  INFO -- : {"task":"ping message","message":"ping message","params":"{\" a\"=>\"h\"}"}
-W, [2022-08-07T15:49:00.688997 #71654]  WARN -- : {"error":"unauthorized"}
-W, [2022-08-07T15:56:44.186365 #71654]  WARN -- : {"error":"unauthorized"}

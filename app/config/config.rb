@@ -1,5 +1,5 @@
 module Config
-  SERVICE_NAME = "Service A"
+  SERVICE_NAME = 'Service A'.freeze
 
   URLS = {
     test: '/test',

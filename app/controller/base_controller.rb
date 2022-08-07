@@ -7,7 +7,7 @@ class BaseController
   end
 
   def not_found
-    message = {'message': 'route not found'}.to_json
+    message = { message: 'route not found' }.to_json
     log(:warn, message)
     send_response(message, Constants::CODE_404)
   end

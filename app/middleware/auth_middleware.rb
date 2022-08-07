@@ -2,8 +2,6 @@ include LoadLogger
 
 module Middleware
   class AuthMiddleware
-    attr_reader :status
-
     def initialize(app, status = 401)
       @app = app
       @status = status
@@ -15,18 +13,17 @@ module Middleware
 
       @app.call(env)
     end
-    
+
     private
-    
+
     def unauthorized
-      message = {"error": "unauthorized"}.to_json
+      message = { error: 'unauthorized' }.to_json
       log(:warn, message)
-      [@status, {}, StringIO.new(message)] 
+      [@status, {}, StringIO.new(message)]
     end
 
     def authenticated?
-    #   @request.session.key?(:web_game)
-      false
+      @request.params['API_TOKEN'] == ENV['API_TOKEN']
     end
 
     def auth_location?

@@ -8,6 +8,7 @@ require 'net/http'
 require 'singleton'
 require 'colorize'
 require 'logger'
+require 'dotenv/load'
 
 require_relative './config/config'
 require_relative './modules/constants'

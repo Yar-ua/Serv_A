@@ -1,10 +1,10 @@
 module Constants
   COLOR = {
-    debug: :magenta, 
-    info: :green, 
-    warn: :yellow, 
-    error: :red, 
-    fatal: :red, 
+    debug: :magenta,
+    info: :green,
+    warn: :yellow,
+    error: :red,
+    fatal: :red,
     unknown: :red
   }.freeze
 

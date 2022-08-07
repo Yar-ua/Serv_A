@@ -1,0 +1,9 @@
+AllCops:
+  SuggestExtensions: false
+  NewCops: enable
+Style/MixinUsage:
+  Enabled: false
+Style/FrozenStringLiteralComment:
+  Enabled: false
+Style/Documentation:
+  Enabled: false
