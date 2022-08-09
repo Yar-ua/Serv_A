@@ -10,7 +10,7 @@ require 'colorize'
 require 'logger'
 require 'dotenv/load'
 
-require_relative './config/config'
+require_relative '../config/config'
 require_relative './modules/constants'
 require_relative './lib/my_logger'
 require_relative './modules/load_logger'

@@ -1,5 +1,7 @@
 module Config
   SERVICE_NAME = 'Service A'.freeze
+  API_TOKEN = ENV['API_TOKEN'].freeze
+  ENVIRONMENT = ENV['ENVIRONMENT'].freeze
 
   URLS = {
     test: '/test',

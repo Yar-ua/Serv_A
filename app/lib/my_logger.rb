@@ -22,6 +22,6 @@ class MyLogger
   end
 
   def filename
-    ENV['ENVIRONMENT'] || 'development'
+    Config::ENVIRONMENT || 'development'
   end
 end

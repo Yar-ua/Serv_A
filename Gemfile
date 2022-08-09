@@ -10,5 +10,9 @@ gem 'json', '>=2.6'
 gem 'pry', '>=0.14'
 gem 'puma', '>=5.6'
 gem 'rack', '>=2.2'
+gem 'rack-test', '>=1.1'
+gem 'rspec', require: false
 gem 'rubocop', require: false
+gem 'rubocop-rspec', require: false
+gem 'simplecov', require: false
 gem 'uri', '>=0.11'

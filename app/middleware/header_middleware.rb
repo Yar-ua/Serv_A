@@ -7,6 +7,7 @@ module Middleware
     def call(env)
       status, headers, body = @app.call(env)
       headers['Content-Type'] = 'application/json'
+      headers['X-Service-Name'] = Config::SERVICE_NAME
       [status, headers, body]
     end
   end

@@ -2,7 +2,7 @@ include LoadLogger
 
 module Middleware
   class AuthMiddleware
-    def initialize(app, status = 401)
+    def initialize(app, status = Constants::CODE_401)
       @app = app
       @status = status
     end
@@ -23,7 +23,7 @@ module Middleware
     end
 
     def authenticated?
-      @request.params['API_TOKEN'] == ENV['API_TOKEN']
+      @request.params['API_TOKEN'] == Config::API_TOKEN
     end
 
     def auth_location?
