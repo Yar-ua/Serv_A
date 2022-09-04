@@ -14,6 +14,6 @@ class AppController < BaseController
   private
 
   def filter_params
-    @request.params.empty? ? '' : @request.params
+    @request.params.empty? ? 'none' : @request.params
   end
 end

@@ -18,8 +18,8 @@ module Middleware
 
     def unauthorized
       message = { error: 'unauthorized' }.to_json
-      log(:warn, message)
-      [@status, {}, StringIO.new(message)]
+      log(:warn, message, Constants::CODE_401)
+      [@status, {}, [message]]
     end
 
     def authenticated?

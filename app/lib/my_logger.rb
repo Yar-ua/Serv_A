@@ -6,7 +6,9 @@ class MyLogger
     @log_file = Logger.new(File.open("./logs/#{filename}.log", File::WRONLY | File::APPEND | File::CREAT))
   end
 
-  def log(level, message)
+  def log(level, server_log, message)
+    console_log(level, server_log)
+    write_log(level, server_log)
     console_log(level, message)
     write_log(level, message)
   end

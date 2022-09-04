@@ -1,6 +1,5 @@
 require 'rack'
 require 'delegate'
-require 'stringio'
 require 'json'
 require 'pry'
 require 'uri'
